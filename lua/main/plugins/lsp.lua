@@ -41,7 +41,9 @@ return -- LSP + Mason
 		require("mason-tool-installer").setup({
 			ensure_installed = {
 				"pyright",
-				"black",
+				-- "black",
+				"djlint",
+				"prettier",
 				"stylua",
 				"html",
 				"cssls",

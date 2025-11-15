@@ -33,10 +33,10 @@ vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window down" })
 vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window up" })
 
 -- Buffers
-vim.keymap.set("n", "<leader>bb", "<cmd>ls<cr>:b ", { desc = "[B]uffers list" })
+vim.keymap.set("n", "<leader>b", "<cmd>ls<cr>:b ", { desc = "[B]uffers list" })
 vim.keymap.set("n", "<leader>n", "<cmd>bn<cr>", { desc = "Next buffer" })
-vim.keymap.set("n", "<leader>ww", "<cmd>w<cr>", { desc = "[W]rite file" })
-vim.keymap.set("n", "<leader>xx", "<cmd>bdelete<cr>", { desc = "Close buffer" })
+vim.keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "[W]rite file" })
+vim.keymap.set("n", "<leader>x", "<cmd>bdelete<cr>", { desc = "Close buffer" })
 
 -- Move lines/blocks
 vim.keymap.set("n", "<A-j>", ":m .+1<cr>==", { desc = "Move line down" })
@@ -58,7 +58,7 @@ vim.keymap.set("n", "N", "Nzzzv", opts)
 vim.keymap.set("n", "<leader>v", "<C-w>v", { desc = "Split vertically" })
 vim.keymap.set("n", "<leader>h", "<C-w>s", { desc = "Split horizontally" })
 vim.keymap.set("n", "<leader>se", "<C-w>=", { desc = "Split equal size" })
-vim.keymap.set("n", "<leader>xs", ":close<CR>", { desc = "Close split" })
+vim.keymap.set("n", "<leader>z", ":close<CR>", { desc = "Close split" })
 
 -- Indent
 vim.keymap.set("v", "<", "<gv", opts)

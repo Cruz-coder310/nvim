@@ -35,3 +35,4 @@ vim.api.nvim_create_autocmd("FileType", {
 		vim.opt_local.dictionary:append(vim.fn.expand("~/AppData/Local/nvim/dict/english.txt"))
 	end,
 })
+-- vim.o.wrap = false
